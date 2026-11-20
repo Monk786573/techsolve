@@ -32,3 +32,4 @@ use the editor.
 ## Project decisions
 
 - **Managed database changes.** Make schema changes with the Lovable-managed migration workflow; keep user-owned content protected by database row-level policies because browser controls alone are not authorization.
+- **Page structure.** Keep the public TechSolve experience in the root file-based route and its visual tokens in the shared stylesheet because the supplied frontend is a single-page prototype.
